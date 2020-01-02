@@ -9,6 +9,23 @@ html {
     box-sizing: border-box;
 }
 
+ul,
+li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.main-bg {
+    height: inherit;
+    width: 100%;
+    background-image: url(../images/home-background-img.png);
+    overflow: auto;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
 .img1 {
     height: 100%;
     background-image: url(../images/01.png);
@@ -16,6 +33,7 @@ html {
     background-position: center;
     background-attachment: fixed;
 }
+
 .img2 {
     height: 100%;
     background-image: url(../images/02.png);
@@ -23,6 +41,7 @@ html {
     background-position: center;
     background-attachment: fixed;
 }
+
 .img3 {
     height: 100%;
     background-image: url(../images/03.png);
@@ -30,6 +49,7 @@ html {
     background-position: center;
     background-attachment: fixed;
 }
+
 .img4 {
     height: 100%;
     background-image: url(../images/04.png);
@@ -37,6 +57,7 @@ html {
     background-position: center;
     background-attachment: fixed;
 }
+
 .img5 {
     height: 100%;
     background-image: url(../images/05.png);
@@ -44,6 +65,7 @@ html {
     background-position: center;
     background-attachment: fixed;
 }
+
 .img6 {
     height: 100%;
     background-image: url(../images/06.png);
@@ -51,6 +73,7 @@ html {
     background-position: center;
     background-attachment: fixed;
 }
+
 .img7 {
     height: 100%;
     background-image: url(../images/07.png);
@@ -58,6 +81,7 @@ html {
     background-position: center;
     background-attachment: fixed;
 }
+
 .img8 {
     height: 100%;
     background-image: url(../images/08.png);
@@ -65,6 +89,7 @@ html {
     background-position: center;
     background-attachment: fixed;
 }
+
 .img9 {
     height: 100%;
     background-image: url(../images/09.png);
@@ -72,6 +97,7 @@ html {
     background-position: center;
     background-attachment: fixed;
 }
+
 .img10 {
     height: 100%;
     background-image: url(../images/10.png);
@@ -79,6 +105,7 @@ html {
     background-position: center;
     background-attachment: fixed;
 }
+
 .img11 {
     height: 100%;
     background-image: url(../images/11.png);
@@ -86,19 +113,109 @@ html {
     background-position: center;
     background-attachment: fixed;
 }
+
 .img12 {
     height: 100%;
     background-image: url(../images/12.png);
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
+    background-position: center;
 }
-.main-bg{
+
+.clearfix {
     width: 100%;
-    background-image: url(../images/home-background-img.png);
-    background-size: cover;
+    padding: 25px 0px 0px 0px;
 }
-.clearfix{
+
+.container {
+    width: 85%;
+    margin: auto;
+    overflow: auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 38px;
+}
+
+.first {
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+
+.color {
+    color: white;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.divider {
     width: 100%;
-    
+    padding: 163px 28% 0px 0px;
+}
+
+.divider-container {
+    width: 44%;
+    margin: auto;
+}
+
+.images {
+    text-align: center;
+    margin: 0px auto 40px auto;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.desc {
+    width: 100%;
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: center;
+}
+
+.name {
+    margin-top: 22px;
+    color: #ff5562;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.arrows {
+    width: 25%;
+    margin:20px auto;
+}
+
+.arrow-container {
+    margin: auto;
+    overflow: auto;
+}
+
+.arrow {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    float: left;
+    padding: 5px;
+}
+
+.left {
+    width: 50%;
+    margin: auto;
+    border: 2px solid;
 }
