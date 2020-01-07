@@ -15,7 +15,8 @@ li {
     margin: 0;
     padding: 0;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
@@ -266,7 +267,7 @@ sec-desc {
 }
 
 .plan {
-    font-weight:  bolder;
+    font-weight: bolder;
     font-size: 28px;
     line-height: 38px;
     margin-bottom: 25px;
@@ -301,4 +302,16 @@ sec-desc {
     margin: 40px 0px;
     text-align: center;
     background-color: #ff5562;
+}
+
+.line-container {
+    padding: 1px;
+    width: 100%;
+    background-color: rebeccapurple;
+    margin: 10px 0px;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background-color:  red;
 }
