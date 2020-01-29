@@ -21,6 +21,11 @@ a {
     color: white;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
 .main-bg {
     height: inherit;
     width: 100%;
@@ -319,12 +324,82 @@ sec-desc {
 
 .contact {
     width: 75%;
-    margin: 100px auto;
+    margin: auto;
 }
 
-.cotact-us {
+.contact-us {
+    padding: 200px 0px 0 0;
     text-align: center;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 45px;
+    font-family: "open sans", sans-serif;
     line-height: 55px;
+    text-align: center;
+}
+
+.form {
+    width: 100%;
+}
+
+.form-container {
+    font-family: Open Sans;
+    padding: 63px 17% 100px;
+}
+
+
+.two-box {
+    width: 100%;
+    overflow: auto;
+    background-color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.box {
+    line-height: 33px;
+    width: 50%;
+    float: left;
+    border-color: rgba(255, 85, 98, 0.5);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.contentsss {
+    padding: 18px 18px 18px 28px;
+
+    border-color: rgba(255, 85, 98, 0.5);
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+}
+
+.width {
+    width: 25%;
+    margin: auto;
+}
+
+.about-logo {
+    width: 85%;
+    margin: auto;
+    font-family: "open sans", sans-serif;
+}
+
+.logo {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.check {
+    margin: 67px auto 18px auto;
+    font-size: 22px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.service {
+    color: black;
+    margin-bottom: 65px;
+    font-size: 26px;
+    line-height: 1.375em;
+    font-weight: 400;
+    text-align: center;
 }
