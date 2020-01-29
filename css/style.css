@@ -310,8 +310,21 @@ sec-desc {
     background-color: rebeccapurple;
     margin: 10px 0px;
 }
-.line{
+
+.line {
     width: 100%;
     height: 2px;
-    background-color:  red;
+    background-color: red;
+}
+
+.contact {
+    width: 75%;
+    margin: 100px auto;
+}
+
+.cotact-us {
+    text-align: center;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 55px;
 }
